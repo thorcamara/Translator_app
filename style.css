@@ -39,3 +39,28 @@ body {
   border-radius: 0px;
   border-left: 1px solid #ccc;
 }
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.text-input textarea::placeholder {
+  color: #b7b6b6;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
